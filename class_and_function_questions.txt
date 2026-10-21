@@ -1,0 +1,41 @@
+def nədir və funksiyadan nə üçün istifadə edirik?
+
+Parametr ilə argument arasındakı fərq nədir?
+
+print() ilə return arasındakı fərq nədir?
+
+Aşağıdakı kod nə çap edəcək və niyə?
+
+def f(x):
+    x * 2
+print(f(5))
+
+Default parametr nədir? def greet(name="Qonaq") çağırılanda nə baş verir?
+
+*args və **kwargs nə üçündür?
+
+Lokal və qlobal dəyişən arasındakı fərq nədir? Funksiya daxilində qlobal dəyişəni necə dəyişmək olar?
+
+def add(a, b) funksiyasını lambda ilə necə yazmaq olar?
+
+Class ilə obyekt (instance) arasındakı fərq nədir? Real həyatdan nümunə verin.
+
+__init__ nə vaxt çağırılır və self nəyi göstərir?
+
+Atribut ilə metod arasındakı fərq nədir?
+
+Class atributu ilə instance atributu necə fərqlənir?
+
+class A:
+    count = 0
+    def __init__(self):
+        self.x = 1
+
+Miras (inheritance) nədir? super() nə üçün istifadə olunur?
+
+__str__ metodunu yazmasaq print(obj) nə göstərər? Yazsaq nə dəyişər?
+
+
+Praktik tapşırıq
+
+BankAccount class-ı yazın: balance atributu, deposit(amount) və withdraw(amount) metodları olsun. Balansdan çox pul çəkmək istəyəndə xəta mesajı çıxsın.
